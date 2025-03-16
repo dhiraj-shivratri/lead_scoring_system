@@ -9,3 +9,8 @@ A simple Python-based **Lead Scoring System** that processes customer data and a
 - Handles missing data and ensures data integrity
 
 ## 📂 Project Structure
+lead_scoring_system/  
+│── lead_scoring.py      # Main Python script  
+│── data/                # Folder for dataset  
+│── Leads.csv            # Sample dataset (not uploaded for privacy)  
+│── README.md            # Project documentation  

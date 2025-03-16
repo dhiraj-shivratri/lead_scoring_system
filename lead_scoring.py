@@ -8,7 +8,7 @@ file_path = "C:/Users/Sinvha/data/Leads.csv"
 def load_data(path):
     """Loads the dataset and handles errors."""
     if not os.path.exists(path):
-        print("❌ Error: File not found! Check the file path.")
+        print(" Error: File not found! Check the file path.")
         return None
     return pd.read_csv(path)
 
@@ -51,6 +51,6 @@ df = load_data(file_path)
 if df is not None:
     df = clean_data(df)
     df = generate_lead_score(df)
-    print("✅ Dataset Processed Successfully!")
+    print(" Dataset Processed Successfully!")
     print(df.head())  # Show first few rows
     visualize_lead_activity(df)  # Show visualization

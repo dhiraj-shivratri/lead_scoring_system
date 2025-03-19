@@ -50,12 +50,10 @@ This **bar chart** shows the distribution of lead activities:
 
 ![Lead Activity Chart](https://via.placeholder.com/800x400?text=Lead+Activity+Chart)  
 
-📌 **Replace this with a real chart screenshot from your script!**  
+
 
 ---
-
-## 📌 Example Output
-After running the script, you’ll see:  
+After running the script, you’ll see
 ```
 ✅ Dataset Loaded Successfully!
    Prospect ID       Lead Score  Last Notable Activity
